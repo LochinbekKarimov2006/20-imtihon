@@ -1,0 +1,72 @@
+footer{
+    background-color: black;
+}
+.div-20{
+    max-width: 1110px;
+    margin: 0 auto;
+    color: aliceblue;
+}
+.div-20-1{
+    margin-bottom: 36px;
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.div-20-2{
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-20-2-1{
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+    color: $oq50;
+    p{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        max-width: 540px;
+    }
+    a{
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+color: $oq50;
+transition: all .5s ease;
+    }
+    a:hover{
+        color: $havorang;
+     }
+}
+.div-20-2-2{
+    display: flex;
+    gap:16px ;
+    a{
+        svg{
+            path{
+transition: all .5s ease;
+
+            }
+            path:hover{
+                fill:$havorang;
+            }
+        }
+    }
+}
+.div-20-1-1{
+    display: flex;
+    gap: 36px;
+    a{
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: $oq;
+transition: all .5s ease;
+
+    }
+    a:hover{
+       color: $havorang;
+    }
+}
